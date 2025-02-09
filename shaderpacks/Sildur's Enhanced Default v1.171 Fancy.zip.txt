@@ -1,0 +1,11 @@
+#Wed Dec 25 13:43:25 EST 2024
+Waving_Fire=false
+Waving_Grass=false
+shadowMapResolution=3072
+Waving_Water=false
+Waving_Lanterns=false
+Waving_Entities=false
+Waving_Lava=false
+Waving_Leaves=false
+Waving_Tallgrass=false
+Waving_Vines=false

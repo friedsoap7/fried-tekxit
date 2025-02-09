@@ -1,0 +1,271 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = addons
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1713675230642
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = test 
+  [loading_requirement_container_meta:3b1de736-70cd-49bd-8538-51f2b5fd38a4-1713675185297] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = Tekxit 4 Addons
+  source_mode = direct
+  shadow = true
+  case_mode = normal
+  scale = 1.0
+  alignment = left
+  text_border = 0
+  line_spacing = 1
+  enable_scrolling = true
+  element_type = fancymenu_customization_item_text
+  instance_identifier = 4d9c610b-9eae-47d8-a903-21406c364fc31693535523344
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -42
+  y = -65
+  width = 85
+  height = 54
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b999975a-2675-4458-b9d8-d599f9957189-1713675010457
+  [loading_requirement_container_meta:b999975a-2675-4458-b9d8-d599f9957189-1713675010457] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = f101de1b-2ab6-4bbd-a1ca-7298fb5735e7-1713672190472
+  [executable_action_instance:381ee50e-a9dd-462b-8b49-0a4be086af92-1713672190472][action_type:movefile] = TKXAddons/itemalchemy.jar;mods/itemalchemy.jar
+  [executable_action_instance:0720b1ee-7fbc-436a-9979-83462d36f9bb-1713672190473][action_type:set_variable] = exitgametext:You must restart your game for mod changes.
+  [executable_block:f101de1b-2ab6-4bbd-a1ca-7298fb5735e7-1713672190472][type:generic] = [executables:381ee50e-a9dd-462b-8b49-0a4be086af92-1713672190472;0720b1ee-7fbc-436a-9979-83462d36f9bb-1713672190473;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Enable
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 0b88cf1b-b416-4cb1-8b54-462765f161591693535536549
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 145beede-d041-48ef-9067-f198e501b5a41693535923358
+  x = 110
+  y = -3
+  width = 50
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f3c9d9a-b327-432b-98c6-33af7334ec27-1713672190473
+  [loading_requirement_container_meta:5f3c9d9a-b327-432b-98c6-33af7334ec27-1713672190473] = [groups:][instances:3b45b9cd-46fd-44dc-9c55-8b42e25ee05c1693538742241;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:3b45b9cd-46fd-44dc-9c55-8b42e25ee05c1693538742241] = fabricated-exchange
+}
+
+element {
+  button_element_executable_block_identifier = 88b1d2df-e57d-425c-be88-93916c41e7f8-1713672190474
+  [executable_action_instance:7a96c44c-d487-4f61-bebc-eeac25bbe3e9-1713672190474][action_type:openfile] = mods
+  [executable_action_instance:e79138f8-2fd5-4a32-891d-814b19d1749b-1713672190474][action_type:set_variable] = exitgametext:You must restart your game for mod changes.
+  [executable_block:88b1d2df-e57d-425c-be88-93916c41e7f8-1713672190474][type:generic] = [executables:7a96c44c-d487-4f61-bebc-eeac25bbe3e9-1713672190474;e79138f8-2fd5-4a32-891d-814b19d1749b-1713672190474;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Open Mods Folder
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = cfb45b4a-f493-482c-b86f-6e848ce28a611693535527255
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = -10
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4264dc4e-fe2d-4f08-92c0-3cc6dfea3007-1713672190474
+  [loading_requirement_container_meta:4264dc4e-fe2d-4f08-92c0-3cc6dfea3007-1713672190474] = [groups:][instances:]
+}
+
+element {
+  source = Item Alchemy
+  source_mode = direct
+  shadow = true
+  case_mode = normal
+  scale = 1.0
+  alignment = left
+  text_border = 0
+  line_spacing = 1
+  enable_scrolling = false
+  element_type = fancymenu_customization_item_text
+  instance_identifier = 145beede-d041-48ef-9067-f198e501b5a41693535923358
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 4d9c610b-9eae-47d8-a903-21406c364fc31693535523344
+  x = -31
+  y = 21
+  width = 113
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8a2596a7-9f74-4cd1-8cd2-660625f65a7d-1713675010457
+  [loading_requirement_container_meta:8a2596a7-9f74-4cd1-8cd2-660625f65a7d-1713675010457] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 5885d1bc-ffe5-4a58-a8e8-3077a6cccf6d-1713672190474
+  [executable_action_instance:6467231a-304b-4dfb-aead-3fe027065e26-1713672190474][action_type:movefile] = mods/itemalchemy.jar;TKXAddons/itemalchemy.jar
+  [executable_action_instance:8129d310-1414-457e-9ed1-abc4db467387-1713672190474][action_type:set_variable] = exitgametext:You must restart your game for mod changes.
+  [executable_block:5885d1bc-ffe5-4a58-a8e8-3077a6cccf6d-1713672190474][type:generic] = [executables:6467231a-304b-4dfb-aead-3fe027065e26-1713672190474;8129d310-1414-457e-9ed1-abc4db467387-1713672190474;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Disable
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d1266d93-5843-4f0e-a048-5e9bb503be4e1693536160264
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 145beede-d041-48ef-9067-f198e501b5a41693535923358
+  x = 110
+  y = -3
+  width = 50
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3a5c106f-1380-4125-b4f1-2bfbd9c66ed3-1713672190474
+  [loading_requirement_container_meta:3a5c106f-1380-4125-b4f1-2bfbd9c66ed3-1713672190474] = [groups:][instances:0a92466b-89b0-44d3-844f-507d2a35a27f1693538689087;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][req_id:0a92466b-89b0-44d3-844f-507d2a35a27f1693538689087] = fabricated-exchange
+}
+
+element {
+  button_element_executable_block_identifier = 0179668b-d07f-40ba-84c6-f50c89cc8b56-1713672190474
+  [executable_action_instance:047c36e3-648f-498c-b188-1e6c01dae5e7-1713672190474][action_type:closegui] = 
+  [executable_action_instance:f7136288-13f9-46cf-b339-ec81b7735412-1713672190474][action_type:clear_variables] = 
+  [executable_block:0179668b-d07f-40ba-84c6-f50c89cc8b56-1713672190474][type:generic] = [executables:047c36e3-648f-498c-b188-1e6c01dae5e7-1713672190474;f7136288-13f9-46cf-b339-ec81b7735412-1713672190474;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Main Menu
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 5d546c81-3c48-4b4b-9ab7-3a2010126c2f1693538461930
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = 14
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = fbbc5ada-cc3a-4922-a950-123da193f034-1713672190474
+  [loading_requirement_container_meta:fbbc5ada-cc3a-4922-a950-123da193f034-1713672190474] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 6c40ea33-26f9-4035-b9a0-ba8b62c6f4be-1713672190474
+  [executable_action_instance:e04b2673-4ff4-4055-a8fe-c4ef0d2fbfd5-1713672190474][action_type:quitgame] = 
+  [executable_action_instance:ada1a28a-4ef9-4fee-9610-d3413b33d611-1713672190474][action_type:clear_variables] = 
+  [executable_block:6c40ea33-26f9-4035-b9a0-ba8b62c6f4be-1713672190474][type:generic] = [executables:e04b2673-4ff4-4055-a8fe-c4ef0d2fbfd5-1713672190474;ada1a28a-4ef9-4fee-9610-d3413b33d611-1713672190474;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Exit Game
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 197564d3-ec35-413b-bcf1-bb0ddc2b0d891693538901302
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = 38
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 7e997d32-9cee-4821-aa9c-141a118afa39-1713672190474
+  [loading_requirement_container_meta:7e997d32-9cee-4821-aa9c-141a118afa39-1713672190474] = [groups:][instances:]
+}
+
+element {
+  source = {"placeholder":"getvariable","values":{"name":"exitgametext"}}
+  source_mode = direct
+  shadow = true
+  case_mode = normal
+  scale = 1.0
+  alignment = centered
+  base_color = #ff6e63
+  text_border = 0
+  line_spacing = 1
+  enable_scrolling = true
+  element_type = fancymenu_customization_item_text
+  instance_identifier = 2e6cf9b1-7f6c-4bd3-93ee-46f6da301df01693539731721
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 197564d3-ec35-413b-bcf1-bb0ddc2b0d891693538901302
+  x = -141
+  y = 24
+  width = 378
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 93de97db-25dc-470a-9fde-a0dc1ed6712b-1713675010457
+  [loading_requirement_container_meta:93de97db-25dc-470a-9fde-a0dc1ed6712b-1713675010457] = [groups:][instances:3ddbc8ce-1613-404d-ad5e-6e50c36815961693539966280;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:3ddbc8ce-1613-404d-ad5e-6e50c36815961693539966280] = exitgametext:You must restart your game for mod changes.
+}
+
