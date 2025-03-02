@@ -61,11 +61,11 @@
       "size": 1494834
     },
     {
-      "name": "net.fabricmc:intermediary:1.19.2",
+      "name": "net.fabricmc:intermediary:1.20.1",
       "url": "https://maven.fabricmc.net/"
     },
     {
-      "name": "net.fabricmc:fabric-loader:0.16.9",
+      "name": "net.fabricmc:fabric-loader:0.16.10",
       "url": "https://maven.fabricmc.net/"
     }
   ],
