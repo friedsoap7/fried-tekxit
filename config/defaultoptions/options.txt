@@ -19,7 +19,7 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.125
@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","charmonium/journeyman","Seasonal Lush Caves","Snowyspirit Generated Pack","TKX"]
+resourcePacks:["vanilla","Fabric Mods","charmonium/journeyman","Seasonal Lush Caves","Snowyspirit Generated Pack","TKX","NatureX"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
